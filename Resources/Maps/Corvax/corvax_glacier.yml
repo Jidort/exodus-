@@ -219255,7 +219255,7 @@ entities:
       pos: 6.7587547,22.283754
       parent: 2
     - type: Paper
-      content: "[color=#228B22][color=#d4af37]███[/color][color=#228B22]░███░░░░██░░░░                  [color=#d4af37]       ★★★[/color]\r\n[color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]\r\n[color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]\r\n[color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] ЦК-КОМ[/bold]\r\n[color=#228B22]░░░░██░░░████░[/color][color=#d4af37]███                         ★★★[/color] [color=black]\r\n=============================================\r\n                ПРИКАЗ СЕКТОРАЛЬНОГО ШТАБА ЦК\r\n=============================================\r\n\nДолжность составителя: Оператор ЦК\r\n\r\nУважаемый Старший Инженер станции!\r\n\r\nЗа игнорирование требований техники пожарной безопасности при проектировании станции из вашей зарплаты будет вычтен штраф в размере 5000 спесосов.\n\r\n\r\n=============================================\r\n                                [italic]Место для печатей[/italic] [/color]\n "
+      content: "[color=#228B22][color=#d4af37]███[/color][color=#228B22]░███░░░░██░░░░                  [color=#d4af37]       ★★★[/color]\r\n[color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]\r\n[color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]\r\n[color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] ЦК-КОМ[/bold]\r\n[color=#228B22]░░░░██░░░████░[/color][color=#d4af37]███                         ★★★[/color] [color=black]\r\n=============================================\r\n                ПРИКАЗ СЕКТОРАЛЬНОГО ШТАБА ЦК\r\n=============================================\r\n\nДолжность составителя: Оператор ЦК\r\n\r\nУважаемый Главный Инженер станции!\r\n\r\nЗа игнорирование требований техники пожарной безопасности при проектировании станции из вашей зарплаты будет вычтен штраф в размере 5000 спесосов.\n\r\n\r\n=============================================\r\n                                [italic]Место для печатей[/italic] [/color]\n "
   - uid: 24299
     components:
     - type: Transform
@@ -245808,7 +245808,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraCommand
       nameSet: True
-      id: Офис Старшего инженера
+      id: Офис Главного инженера
   - uid: 27553
     components:
     - type: Transform
@@ -326374,12 +326374,12 @@ entities:
   - uid: 40058
     components:
     - type: MetaData
-      name: Офис старшего инженера
+      name: Офис главного инженера
     - type: Transform
       pos: 2.5,-48.5
       parent: 2
     - type: WarpPoint
-      location: Офис старшего инженера
+      location: Офис главного инженера
   - uid: 40059
     components:
     - type: MetaData

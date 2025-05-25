@@ -72313,7 +72313,7 @@ entities:
       pos: 44.5,121.5
       parent: 1
     - type: FaxMachine
-      name: Старший инженер
+      name: Главный инженер
 - proto: FaxMachineCaptain
   entities:
   - uid: 661

@@ -57,7 +57,7 @@ holopad-command-captain = Командование - Капитан
 holopad-command-hop = Командование - ГП
 holopad-command-cmo = Командование - ГВ
 holopad-command-qm = Командование - КМ
-holopad-command-ce = Командование - СИ
+holopad-command-ce = Командование - ГИ
 holopad-command-rd = Командование - НР
 holopad-command-hos = Командование - ГСБ
 # Science

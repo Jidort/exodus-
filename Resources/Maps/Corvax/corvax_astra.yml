@@ -180746,7 +180746,7 @@ entities:
   - uid: 26444
     components:
     - type: MetaData
-      desc: Только для НаучРука, ГСБ и Старшего инженера.
+      desc: Только для НаучРука, ГСБ и Главного инженера.
       name: ядро ИИ
     - type: Transform
       pos: 98.5,-85.5
@@ -180761,7 +180761,7 @@ entities:
   - uid: 26445
     components:
     - type: MetaData
-      desc: Только для НаучРука, ГСБ и Старшего инженера.
+      desc: Только для НаучРука, ГСБ и Главного инженера.
       name: ядро ИИ
     - type: Transform
       pos: 98.5,-81.5

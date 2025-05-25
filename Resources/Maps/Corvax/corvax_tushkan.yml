@@ -36090,7 +36090,7 @@ entities:
       pos: -4.5,-35.5
       parent: 2
     - type: FaxMachine
-      name: Старший Инженер
+      name: Главный Инженер
   - uid: 4830
     components:
     - type: Transform

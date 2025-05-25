@@ -53551,8 +53551,8 @@ entities:
       pos: -14.5,-23.5
       parent: 2
     - type: FaxMachine
-      name: Старший инженер
-      destinationAddress: Старший инженер
+      name: Главный инженер
+      destinationAddress: Главный инженер
   - uid: 7421
     components:
     - type: Transform

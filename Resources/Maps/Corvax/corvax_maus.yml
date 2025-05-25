@@ -56200,7 +56200,7 @@ entities:
       pos: -52.5,-17.5
       parent: 2
     - type: NavMapBeacon
-      text: Кабинет старшего инженера
+      text: Кабинет главного инженера
 - proto: DefaultStationBeaconChapel
   entities:
   - uid: 6226
@@ -62221,8 +62221,8 @@ entities:
       pos: -53.5,-18.5
       parent: 2
     - type: FaxMachine
-      name: Кабинет старшего инженера
-      destinationAddress: Кабинет Старшего Инженера
+      name: Кабинет главного инженера
+      destinationAddress: Кабинет главного Инженера
 - proto: FaxMachineCaptain
   entities:
   - uid: 6876
