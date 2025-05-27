@@ -809,6 +809,10 @@
   id: SeniorEngineerIDCard
   name: senior engineer ID card
   components:
+# Exodus-Seniors-Start
+  - type: PresetIdCard
+    job: SeniorEngineer
+# Exodus-Seniors-End
   - type: Sprite
     layers:
     - state: default
@@ -819,6 +823,10 @@
   id: SeniorResearcherIDCard
   name: senior researcher ID card
   components:
+# Exodus-Seniors-Start
+  - type: PresetIdCard
+    job: SeniorEngineer
+# Exodus-Seniors-End
   - type: Sprite
     layers:
     - state: default
@@ -829,6 +837,10 @@
   id: SeniorPhysicianIDCard
   name: senior physician ID card
   components:
+# Exodus-Seniors-Start
+  - type: PresetIdCard
+    job: SeniorPhysician
+# Exodus-Seniors-End
   - type: Sprite
     layers:
     - state: default
@@ -839,6 +851,10 @@
   id: SeniorOfficerIDCard
   name: senior officer ID card
   components:
+# Exodus-Seniors-Start
+  - type: PresetIdCard
+    job: SeniorEngineer
+# Exodus-Seniors-End
   - type: Sprite
     layers:
     - state: default

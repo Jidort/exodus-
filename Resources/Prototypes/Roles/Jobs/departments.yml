@@ -101,6 +101,7 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
+  - SeniorEngineer
   - StationEngineer
   - TechnicalAssistant
 
@@ -112,6 +113,7 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
+  - SeniorPhysician
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
@@ -140,6 +142,7 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
+  - SeniorResearcher
   - Scientist
   - ResearchAssistant
 

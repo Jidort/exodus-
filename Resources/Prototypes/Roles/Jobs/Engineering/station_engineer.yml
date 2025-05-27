@@ -23,6 +23,7 @@
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
+    id: EngineerPDA # Exodus-Seniors
   #storage:
     #back:
     #- Stuff
