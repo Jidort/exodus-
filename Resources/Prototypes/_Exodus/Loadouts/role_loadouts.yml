@@ -1,11 +1,64 @@
+# region Security
 - type: roleLoadout
   id: JobBrigmedic
   groups:
   - BrigmedicHead
   - BrigmedicMask
-  - BrigmedicOuterClothing
   - BrigmedicJumpsuit
+  - BrigmedicOuterClothing
   - MedicalGloves
   - BrigmedicBackpack
   - BrigmedicShoes
   - Trinkets
+  - GroupSpeciesBreathTool
+  - SurvivalSecurity
+  - GroupTankHarness
+
+# region Engineering
+- type: roleLoadout
+  id: JobSeniorEngineer
+  groups:
+  - SeniorEngineerHead
+  - SeniorEngineerJumpsuit
+  - SeniorEngineerOuterClothing
+  - SeniorEngineerBackpack
+  - SeniorEngineerShoes
+  - Trinkets
+  - SurvivalExtended
+  - GroupSpeciesBreathTool
+  - GroupTankHarness
+
+# region Medical
+- type: roleLoadout
+  id: JobSeniorPhysician
+  groups:
+  - SeniorPhysicianHead
+  - Glasses
+  - SeniorPhysicianMask
+  - SeniorPhysicianNeck
+  - SeniorPhysicianJumpsuit
+  - SeniorPhysicianOuterClothing
+  - SeniorPhysicianGloves
+  - SeniorPhysicianBackpack
+  - SeniorPhysicianShoes
+  - Trinkets
+  - SurvivalMedical
+  - GroupSpeciesBreathToolMedical
+  - GroupTankHarness
+
+# region Science
+- type: roleLoadout
+  id: JobSeniorResearcher
+  groups:
+  - SeniorResearcherHead
+  - Glasses
+  - SeniorResearcherNeck
+  - SeniorResearcherJumpsuit
+  - SeniorResearcherOuterClothing
+  - SeniorResearcherGloves
+  - SeniorResearcherBackpack
+  - SeniorResearcherShoes
+  - Trinkets
+  - Survival
+  - GroupSpeciesBreathTool
+  - GroupTankHarness

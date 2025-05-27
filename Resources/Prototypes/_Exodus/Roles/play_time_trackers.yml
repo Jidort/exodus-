@@ -12,3 +12,12 @@
 
 - type: playTimeTracker
   id: JobDSSpecialist
+
+- type: playTimeTracker
+  id: JobSeniorEngineer
+
+- type: playTimeTracker
+  id: JobSeniorPhysician
+
+- type: playTimeTracker
+  id: JobSeniorResearcher

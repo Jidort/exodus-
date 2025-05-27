@@ -273,7 +273,7 @@
   - StationEngineerBackpack
   - StationEngineerOuterClothing
   - StationEngineerShoes
-  - StationEngineerID
+# - StationEngineerID # Exodus-Seniors
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -318,7 +318,7 @@
   - ScientistOuterClothing
   - ScientistGloves
   - ScientistShoes
-  - ScientistPDA
+# - ScientistPDA # Exodus-Seniors
   - Glasses
   - Survival
   - Trinkets
@@ -373,7 +373,7 @@
   - SecurityBackpack
   - SecurityOuterClothing
   - SecurityShoes
-  - SecurityPDA
+  # - SecurityPDA # Exodus-Seniors
   - SecurityBelt
   - SurvivalSecurity
   - Trinkets
@@ -432,7 +432,7 @@
   - MedicalBackpack
   - MedicalDoctorOuterClothing
   - MedicalShoes
-  - MedicalDoctorPDA
+# - MedicalDoctorPDA # Exodus-Seniors
   - Glasses
   - SurvivalMedical
   - Trinkets

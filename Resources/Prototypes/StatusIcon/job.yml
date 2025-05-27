@@ -411,15 +411,19 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SeniorPhysician
-  allowSelection: false
+# Exodus-Seniors-Start
+  jobName: job-name-senior-physician
+# Exodus-Seniors-End
 
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconSeniorOfficer
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: SeniorOfficer
-  allowSelection: false
+# - type: jobIcon
+#   parent: JobIcon
+#   id: JobIconSeniorOfficer
+#   icon:
+#     sprite: /Textures/Interface/Misc/job_icons.rsi
+#     state: SeniorOfficer
+# Exodus-Seniors-Start
+#   jobName:
+# Exodus-Seniors-End
 
 - type: jobIcon
   parent: JobIcon
@@ -427,7 +431,9 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SeniorEngineer
-  allowSelection: false
+# Exodus-Seniors-Start
+  jobName: job-name-senior-engineer
+# Exodus-Seniors-End
 
 - type: jobIcon
   parent: JobIcon
@@ -435,7 +441,9 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SeniorResearcher
-  allowSelection: false
+# Exodus-Seniors-Start
+  jobName: job-name-senior-researcher
+# Exodus-Seniors-End
 
 - type: jobIcon
   parent: JobIcon

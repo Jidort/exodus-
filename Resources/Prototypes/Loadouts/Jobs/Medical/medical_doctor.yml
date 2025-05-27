@@ -1,22 +1,24 @@
-# Senior Time
-- type: loadoutEffectGroup
-  id: SeniorPhysician
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobChemist
-      time: 72000 #20 hrs # Corvax-RoleTime
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobMedicalDoctor
-      time: 72000 #20 hrs # Corvax-RoleTime
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Medical
-      time: 216000 # 60 hrs
+# Exodus-Seniors-Start
+# # Senior Time
+# - type: loadoutEffectGroup
+#   id: SeniorPhysician
+#   effects:
+#   - !type:JobRequirementLoadoutEffect
+#     requirement:
+#       !type:RoleTimeRequirement
+#       role: JobChemist
+#       time: 72000 #20 hrs # Corvax-RoleTime
+#   - !type:JobRequirementLoadoutEffect
+#     requirement:
+#       !type:RoleTimeRequirement
+#       role: JobMedicalDoctor
+#       time: 72000 #20 hrs # Corvax-RoleTime
+#   - !type:JobRequirementLoadoutEffect
+#     requirement:
+#       !type:DepartmentTimeRequirement
+#       department: Medical
+#       time: 216000 # 60 hrs
+# Exodus-Seniors-End
 
 # Other Timers
 
@@ -29,15 +31,16 @@
       role: JobMedicalDoctor
       time: 108000 #30 hrs
 
+# Exodus-Seniors-Start
 # Head
-
-- type: loadout
-  id: SeniorPhysicianBeret
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    head: ClothingHeadHatBeretSeniorPhysician
+# - type: loadout
+#   id: SeniorPhysicianBeret
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorPhysician
+#   equipment:
+#     head: ClothingHeadHatBeretSeniorPhysician
+# Exodus-Seniors-End
 
 - type: loadout
   id: MedicalHeadMirror
@@ -83,21 +86,23 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtMedicalDoctor
 
-- type: loadout
-  id: SeniorPhysicianJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
-
-- type: loadout
-  id: SeniorPhysicianJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+# Exodus-Seniors-Start
+# - type: loadout
+#   id: SeniorPhysicianJumpsuit
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorPhysician
+#   equipment:
+#     jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+#
+# - type: loadout
+#   id: SeniorPhysicianJumpskirt
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorPhysician
+#   equipment:
+#     jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+# Exodus-Seniors-End
 
 - type: loadout
   id: MedicalBlueScrubs
@@ -136,13 +141,15 @@
   equipment:
     outerClothing: ClothingOuterWinterMed
 
-- type: loadout
-  id: SeniorPhysicianLabCoat
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    outerClothing: ClothingOuterCoatLabSeniorPhysician
+# Exodus-Seniors-Start
+# - type: loadout
+#   id: SeniorPhysicianLabCoat
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorPhysician
+#   equipment:
+#     outerClothing: ClothingOuterCoatLabSeniorPhysician
+# Exodus-Seniors-End
 
 # Shoes
 - type: loadout
@@ -150,19 +157,21 @@
   equipment:
     shoes: ClothingShoesBootsWinterMed
 
+# Exodus-Seniors-Start
 # ID
-- type: loadout
-  id: MedicalDoctorPDA
-  equipment:
-    id: MedicalPDA
-
-- type: loadout
-  id: SeniorPhysicianPDA
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    id: SeniorPhysicianPDA
+# - type: loadout
+#   id: MedicalDoctorPDA
+#   equipment:
+#     id: MedicalPDA
+#
+# - type: loadout
+#   id: SeniorPhysicianPDA
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorPhysician
+#   equipment:
+#     id: SeniorPhysicianPDA
+# Exodus-Seniors-End
 
 # Gloves
 - type: loadout

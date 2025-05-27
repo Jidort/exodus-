@@ -764,7 +764,7 @@
   - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
-  - SeniorEngineerBeret
+# - SeniorEngineerBeret # Exodus-Seniors
 
 - type: loadoutGroup
   id: StationEngineerJumpsuit
@@ -773,8 +773,10 @@
   - StationEngineerJumpsuit
   - StationEngineerJumpskirt
   - StationEngineerHazardsuit
-  - SeniorEngineerJumpsuit
-  - SeniorEngineerJumpskirt
+# Exodus-Seniors-Start
+# - SeniorEngineerJumpsuit
+# - SeniorEngineerJumpskirt
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -799,12 +801,14 @@
   - WorkBoots
   - EngineeringWinterBoots
 
-- type: loadoutGroup
-  id: StationEngineerID
-  name: loadout-group-station-engineer-id
-  loadouts:
-  - StationEngineerPDA
-  - SeniorEngineerPDA
+# Exodus-Seniors-Start
+# - type: loadoutGroup
+#   id: StationEngineerID
+#   name: loadout-group-station-engineer-id
+#   loadouts:
+#   - StationEngineerPDA
+#   - SeniorEngineerPDA
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: AtmosphericTechnicianJumpsuit
@@ -853,7 +857,7 @@
   name: loadout-group-research-director-head
   minLimit: 0
   loadouts:
-  - ResearchDirectorBeret
+  - ScientificBeret
 
 - type: loadoutGroup
   id: ResearchDirectorNeck
@@ -913,8 +917,10 @@
   - ScientistJumpskirt
   - RoboticistJumpsuit
   - RoboticistJumpskirt
-  - SeniorResearcherJumpsuit
-  - SeniorResearcherJumpskirt
+# Exodus-Seniors-Start
+# - SeniorResearcherJumpsuit
+# - SeniorResearcherJumpskirt
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: ScientistBackpack
@@ -934,7 +940,7 @@
   - ScienceWintercoat
   - RoboticistLabCoat
   - RoboticistWintercoat
-  - SeniorResearcherLabCoat
+# - SeniorResearcherLabCoat # Exodus-Seniors
 
 - type: loadoutGroup
   id: ScientistShoes
@@ -953,12 +959,14 @@
   - PurpleGloves
   - RobohandsGloves
 
-- type: loadoutGroup
-  id: ScientistPDA
-  name: loadout-group-scientist-id
-  loadouts:
-  - ScientistPDA
-  - SeniorResearcherPDA
+# Exodus-Seniors-Start
+# - type: loadoutGroup
+#   id: ScientistPDA
+#   name: loadout-group-scientist-id
+#   loadouts:
+#   - ScientistPDA
+#   - SeniorResearcherPDA
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: ResearchAssistantJumpsuit
@@ -1193,7 +1201,7 @@
   minLimit: 0
   loadouts:
   - MedicalBeret
-  - SeniorPhysicianBeret
+#  - SeniorPhysicianBeret # Exodus-Seniors
   - MedicalHeadMirror
   - BlueSurgeryCap
   - GreenSurgeryCap
@@ -1206,8 +1214,10 @@
   loadouts:
   - MedicalDoctorJumpsuit
   - MedicalDoctorJumpskirt
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
+# Exodus-Seniors-Start
+#  - SeniorPhysicianJumpsuit
+#  - SeniorPhysicianJumpskirt
+# Exodus-Seniors-End
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
@@ -1219,7 +1229,7 @@
   loadouts:
   - RegularLabCoat
   - MedicalDoctorWintercoat
-  - SeniorPhysicianLabCoat
+#  - SeniorPhysicianLabCoat # Exodus-Seniors
 
 - type: loadoutGroup
   id: MedicalBackpack
@@ -1236,12 +1246,14 @@
   - WhiteShoes
   - MedicalWinterBoots
 
-- type: loadoutGroup
-  id: MedicalDoctorPDA
-  name: loadout-group-medical-doctor-id
-  loadouts:
-  - MedicalDoctorPDA
-  - SeniorPhysicianPDA
+# Exodus-Seniors-Start
+# - type: loadoutGroup
+#   id: MedicalDoctorPDA
+#   name: loadout-group-medical-doctor-id
+#   loadouts:
+#   - MedicalDoctorPDA
+#   - SeniorPhysicianPDA
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: MedicalGloves
