@@ -1,0 +1,53 @@
+- type: job
+  id: SeniorOfficer
+  name: job-name-senior-officer
+  description: job-description-senior-officer
+  playTimeTracker: JobSeniorOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 270000 #75 hrs
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 54000 #15 hrs
+    - !type:RoleTimeRequirement
+      role: JobWarden
+      time: 54000 #15 hrs
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 54000 #15 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 450000 #125 hrs
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+      - Muted
+      - Blindness
+      - Narcolepsy
+      - Pacifist
+  weight: 5
+  startingGear: SeniorOfficerGear
+  icon: "JobIconSeniorOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Brig
+  - Security
+  - Maintenance
+  - Service
+  - External
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SeniorOfficerGear
+  equipment:
+    id: SeniorOfficerPDA
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

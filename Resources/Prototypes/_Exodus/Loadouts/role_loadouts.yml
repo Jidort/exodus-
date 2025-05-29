@@ -6,12 +6,27 @@
   - BrigmedicMask
   - BrigmedicJumpsuit
   - BrigmedicOuterClothing
-  - MedicalGloves
+  - BrigmedicGloves
   - BrigmedicBackpack
   - BrigmedicShoes
   - Trinkets
   - GroupSpeciesBreathTool
   - SurvivalSecurity
+  - GroupTankHarness
+
+- type: roleLoadout
+  id: JobSeniorOfficer
+  groups:
+  - SeniorOfficerHead
+  - SeniorOfficerJumpsuit
+  - SeniorOfficerOuterClothing
+  - SeniorOfficerBelt
+  - SeniorOfficerBackpack
+  - SeniorOfficerShoes
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
   - GroupTankHarness
 
 # region Engineering

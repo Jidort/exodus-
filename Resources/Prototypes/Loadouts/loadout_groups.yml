@@ -1061,8 +1061,10 @@
   - SecurityJumpskirt
   - SecurityJumpsuitGrey
   - SecurityJumpskirtGrey
-  - SeniorOfficerJumpsuit
-  - SeniorOfficerJumpskirt
+  # Exodus-Seniors-Start
+  # - SeniorOfficerJumpsuit
+  # - SeniorOfficerJumpskirt
+  # Exodus-Seniors-End
   - TrooperUniform
 
 - type: loadoutGroup
@@ -1097,12 +1099,14 @@
   - JackBoots
   - SecurityWinterBoots
 
-- type: loadoutGroup
-  id: SecurityPDA
-  name: loadout-group-security-id
-  loadouts:
-  - SecurityPDA
-  - SeniorOfficerPDA
+# Exodus-Seniors-Start
+# - type: loadoutGroup
+#   id: SecurityPDA
+#   name: loadout-group-security-id
+#   loadouts:
+#   - SecurityPDA
+#   - SeniorOfficerPDA
+# Exodus-Seniors-End
 
 - type: loadoutGroup
   id: DetectiveHead
