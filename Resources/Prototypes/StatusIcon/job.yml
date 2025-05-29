@@ -415,14 +415,14 @@
   jobName: job-name-senior-physician
 # Exodus-Seniors-End
 
-# - type: jobIcon
-#   parent: JobIcon
-#   id: JobIconSeniorOfficer
-#   icon:
-#     sprite: /Textures/Interface/Misc/job_icons.rsi
-#     state: SeniorOfficer
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSeniorOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorOfficer
 # Exodus-Seniors-Start
-#   jobName:
+  jobName: job-name-senior-officer
 # Exodus-Seniors-End
 
 - type: jobIcon

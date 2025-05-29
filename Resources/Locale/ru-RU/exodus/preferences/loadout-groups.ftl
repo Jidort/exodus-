@@ -3,9 +3,19 @@ Brigmedic-loadout = Снаряжение бригмедика
 loadout-group-brigmedic-mask = БригМедик, маска
 loadout-group-brigmedic-head = БригМедик, голова
 loadout-group-brigmedic-jumpsuit = БригМедик, комбинезон
+loadout-group-brigmedic-gloves = БригМедик, перчатки
 loadout-group-brigmedic-outerclothing = БригМедик, верхняя одежда
 loadout-group-brigmedic-shoes = БригМедик, обувь
 loadout-group-brigmedic-backpack = БригМедик, рюкзак
+
+# Security SeniorOfficer
+SeniorOfficer-loadout = Снаряжение старшего офицера
+loadout-group-senior-officer-head = Старший офицер, голова
+loadout-group-senior-officer-jumpsuit = Старший офицер, комбинезон
+loadout-group-senior-officer-outerclothing = Старший офицер, верхняя одежда
+loadout-group-senior-officer-shoes = Старший офицер, обувь
+loadout-group-senior-officer-belt = Старший офицер, пояс
+loadout-group-senior-officer-backpack = Старший офицер, рюкзак
 
 # Engineering SeniorEngineer
 SeniorEngineer-loadout = Снаряжение старшего инженера

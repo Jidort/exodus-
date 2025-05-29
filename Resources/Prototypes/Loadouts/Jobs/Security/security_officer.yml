@@ -1,17 +1,19 @@
+# Exodus-Seniors-Start
 # Senior Time
-- type: loadoutEffectGroup
-  id: SeniorOfficer
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobWarden
-      time: 72000 #20 hrs # Corvax-RoleTime
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Security
-      time: 216000 # 60 hrs
+# - type: loadoutEffectGroup
+#   id: SeniorOfficer
+#   effects:
+#   - !type:JobRequirementLoadoutEffect
+#     requirement:
+#       !type:RoleTimeRequirement
+#       role: JobWarden
+#       time: 72000 #20 hrs # Corvax-RoleTime
+#   - !type:JobRequirementLoadoutEffect
+#     requirement:
+#       !type:DepartmentTimeRequirement
+#       department: Security
+#       time: 216000 # 60 hrs
+# Exodus-Seniors-End
 
 #Security Star
 - type: loadoutEffectGroup
@@ -67,22 +69,26 @@
 
 - type: loadout
   id: TrooperUniform
-  equipment: 
+  equipment:
     jumpsuit: ClothingUniformSecurityTrooper
 
 - type: loadout
   id: SeniorOfficerJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorOfficer
+  # Exodus-Seniors-Start
+  # effects:
+  # - !type:GroupLoadoutEffect
+  #   proto: SeniorOfficer
+  # Exodus-Seniors-End
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorOfficer
 
 - type: loadout
   id: SeniorOfficerJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorOfficer
+  # Exodus-Seniors-Start
+  # effects:
+  # - !type:GroupLoadoutEffect
+  #   proto: SeniorOfficer
+  # Exodus-Seniors-End
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorOfficer
 
@@ -145,19 +151,22 @@
   equipment:
     shoes: ClothingShoesBootsWinterSecFilled
 
-# PDA
-- type: loadout
-  id: SecurityPDA
-  equipment:
-    id: SecurityPDA
 
-- type: loadout
-  id: SeniorOfficerPDA
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorOfficer
-  equipment:
-    id: SeniorOfficerPDA
+# Exodus-Seniors-Start
+# PDA
+# - type: loadout
+#   id: SecurityPDA
+#   equipment:
+#     id: SecurityPDA
+#
+# - type: loadout
+#   id: SeniorOfficerPDA
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: SeniorOfficer
+#   equipment:
+#     id: SeniorOfficerPDA
+# Exodus-Seniors-End
 
 # Misc
 - type: loadout

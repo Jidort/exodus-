@@ -28,6 +28,14 @@
   - BrigmedicVest
 
 - type: loadoutGroup
+  id: BrigmedicGloves
+  name: loadout-group-brigmedic-gloves
+  minLimit: 0
+  loadouts:
+  - LatexGloves
+  - NitrileGloves
+
+- type: loadoutGroup
   id: BrigmedicJumpsuit
   name: loadout-group-brigmedic-jumpsuit
   loadouts:
@@ -47,6 +55,60 @@
   name: loadout-group-brigmedic-shoes
   loadouts:
   - RedShoes
+  - SecurityWinterBoots
+
+
+- type: loadoutGroup
+  id: SeniorOfficerHead
+  name: loadout-group-senior-officer-head
+  minLimit: 0
+  loadouts:
+  - SecurityHelmet
+  - SecurityBeret
+  - SecurityHat
+  - TrooperHat
+
+- type: loadoutGroup
+  id: SeniorOfficerJumpsuit
+  name: loadout-group-senior-officer-jumpsuit
+  loadouts:
+  - SecurityJumpsuitGrey
+  - SecurityJumpskirtGrey
+  - SeniorOfficerJumpsuit
+  - SeniorOfficerJumpskirt
+  - TrooperUniform
+
+- type: loadoutGroup
+  id: SeniorOfficerBackpack
+  name: loadout-group-senior-officer-backpack
+  loadouts:
+  - SecurityBackpack
+  - SecuritySatchel
+  - SecurityDuffel
+
+- type: loadoutGroup
+  id: SeniorOfficerBelt
+  name: loadout-group-senior-officer-belt
+  loadouts:
+  - SecurityBelt
+  - SecurityWebbing
+
+- type: loadoutGroup
+  id: SeniorOfficerOuterClothing
+  name: loadout-group-senior-officer-outerclothing
+  loadouts:
+  - ArmorVestSec
+  - ArmorVest
+  - ArmorVestSlim
+  - SecurityOfficerWintercoat
+  - CoatSecurityOvercoat
+
+- type: loadoutGroup
+  id: SeniorOfficerShoes
+  name: loadout-group-senior-officer-shoes
+  loadouts:
+  - JackSecBoots
+  - JackBoots
   - SecurityWinterBoots
 
 # region Engineering
