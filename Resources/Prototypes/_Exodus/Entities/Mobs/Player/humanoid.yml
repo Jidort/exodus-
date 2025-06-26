@@ -81,6 +81,7 @@
     - Vox
     - Kidan
     - Felinid
+    - NewKidan
   parent: ERTLeader
   components:
     - type: AntagImmune

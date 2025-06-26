@@ -78,7 +78,7 @@
         amount: 2
       - id: GrenadeShrapnel
         amount: 2
-      - id: EmergencyMedipenDS
+      - id: CombatMedipenDS
         amount: 2
 
 - type: entity
@@ -99,7 +99,7 @@
       - id: GrenadeShrapnel
         amount: 2
       - id: PinpointerNuclear
-      - id: EmergencyMedipenDS
+      - id: CombatMedipenDS
         amount: 2
 
 - type: entity
@@ -117,5 +117,5 @@
         amount: 2
       - id: SmokeGrenade
       - id: TearGasGrenade
-      - id: EmergencyMedipenDS
+      - id: CombatMedipenDS
         amount: 4
