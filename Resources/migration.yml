@@ -673,3 +673,6 @@ PlayerStationAiPilgrim: PlayerStationAi
 
 # 2025-06-09 Exodus
 ClothingUniformColorJumpskirtRainbow: ClothingUniformJumpskirtColorRainbow
+
+# 2025-06-09 Exodus
+EmergencyMedipenDS: CombatMedipenDS
