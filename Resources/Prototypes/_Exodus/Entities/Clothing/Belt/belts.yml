@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ClothingBeltStorageBase, BaseCentcommCommandContraband]
   id: ClothingBeltDS
   name: death squad assault belt
   description: An assault belt that can hold ammunition or other murderous items.

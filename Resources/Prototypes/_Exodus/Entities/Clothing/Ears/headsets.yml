@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset, BaseCentcommCommandContraband]
   id: ClothingHeadsetDS
   name: death squad headset
   description: Death squad headset.

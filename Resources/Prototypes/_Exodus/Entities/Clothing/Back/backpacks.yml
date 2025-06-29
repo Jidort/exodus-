@@ -51,7 +51,7 @@
     - 0,0,17,8
 
 - type: entity
-  parent: ClothingBackpack
+  parent: [ClothingBackpack, BaseCentcommCommandContraband]
   id: ClothingDeathSquadBackpack
   name: death squad backpack
   description: The high-capacity backpack of the squad of the same name

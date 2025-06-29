@@ -1,6 +1,6 @@
 - type: entity
   name: DSO rubber stamp
-  parent: RubberStampBase
+  parent: [RubberStampBase, BaseCentcommCommandContraband]
   id: RubberStampDSO
   components:
   - type: Stamp
@@ -12,7 +12,7 @@
 
 - type: entity
   name: Тop secret rubber stamp
-  parent: RubberStampBase
+  parent: [RubberStampBase, BaseCentcommCommandContraband]
   id: RubberStampTopSecret
   components:
   - type: Stamp
