@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingEyesHudOmni
+  parent: [ClothingEyesHudOmni, BaseCentcommCommandContraband]
   id: ClothingEyesHudDS
   name: enhanced visor
   description: A visor that combines all the others. Due to extreme complexity and cost, it was created in single copies

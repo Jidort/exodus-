@@ -11,7 +11,7 @@
     job: BlueshieldOfficer
 
 - type: entity
-  parent: IDCardStandard
+  parent: [IDCardStandard, BaseCentcommCommandContraband]
   id: IDCardDSCommander
   name: death squad commander ID card
   components:

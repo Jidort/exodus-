@@ -43,7 +43,7 @@
       generated:
         reagents:
         - ReagentId: Stimulants
-          Quantity: 0.25
+          Quantity: 0.2
 
 - type: entity
   parent: BaseSubdermalImplant

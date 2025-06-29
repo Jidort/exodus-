@@ -66,7 +66,7 @@
     lowPressureMultiplier: 1000
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseCentcommCommandContraband]
   id: ClothingOuterHardsuitDeathsquadCommander
   name: death squad commander hardsuit
   description: A high-tech suit designed for the death squad commander.
@@ -169,7 +169,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadSpecialist
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseCentcommCommandContraband]
   id: ClothingHeadHelmetHardsuitDeathsquadCommander
   name: death squad commander hardsuit helmet
   description: A high-tech helmet designed for the death squad commander.
