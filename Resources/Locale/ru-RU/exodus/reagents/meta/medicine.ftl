@@ -1,2 +1,2 @@
-reagent-name-saliforsom = Омнитир
-reagent-desc-saliforsom = Концентрированный антибиотик, лечащий все болезни, даже смерть.
+reagent-name-omnitir = Омнитир
+reagent-desc-omnitir = Концентрированный антибиотик, лечащий все болезни, даже смерть.

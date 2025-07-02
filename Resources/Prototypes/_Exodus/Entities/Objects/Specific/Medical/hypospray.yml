@@ -1,6 +1,6 @@
 - type: entity
   name: emergency combat medipen
-  parent: [ChemicalMedipen, BaseCentcommCommandContraband]
+  parent: [ChemicalMedipen, BaseCentcommContraband]
   id: CombatMedipenDS
   description: An emergency medipen that gets you back on your feet in the shortest possible time, even with the most severe injuries. Due to the high cost and difficulty of production, it is used by death squad only.
   components:
@@ -9,7 +9,7 @@
       pen:
         maxVol: 15
         reagents:
-        - ReagentId: Saliforsom
+        - ReagentId: Omnitir
           Quantity: 15
   - type: SolutionContainerVisuals
     maxFillLevels: 1
@@ -42,30 +42,39 @@
 
 - type: entity
   name: P.A.N.A.C.E.A.
-  parent: [BaseItem, BaseCentcommCommandContraband]
+  parent: [BaseItem, BaseCentcommContraband]
   description:
-  id: HyposprayDS
+  id: HyposprayPANACEADS
   components:
   - type: Sprite
     sprite: Exodus/Objects/Specific/Medical/auto_injector.rsi
     state: icon
   - type: Item
     sprite: Exodus/Objects/Specific/Medical/auto_injector.rsi
+    size: Small
+    shape:
+    - 0,0,1,1
   - type: SolutionContainerManager
     solutions:
       hypospray:
-        maxVol: 20
+        maxVol: 5
   - type: ExaminableSolution
     solution: hypospray
   - type: Hypospray
     onlyAffectsMobs: false
+    injectOnly: true
   - type: UseDelay
     delay: 2.5
   - type: StaticPrice
-    price: 550
+    price: 10000
   - type: SolutionRegeneration
     solution: hypospray
     generated:
       reagents:
-      - ReagentId: Saliforsom
-        Quantity: 0.25
+      - ReagentId: Omnitir
+        Quantity: 0.1
+  - type: Tag
+    tags:
+    - Syringe
+    - ThickSyringe
+

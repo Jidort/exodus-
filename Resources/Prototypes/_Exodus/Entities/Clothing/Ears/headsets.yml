@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadset, BaseCentcommCommandContraband]
+  parent: [ClothingHeadset, BaseCentcommContraband]
   id: ClothingHeadsetDS
   name: death squad headset
   description: Death squad headset.
@@ -10,6 +10,7 @@
       - EncryptionKeyDS
       - EncryptionKeyStationMaster
       - EncryptionKeyCentCom
+      - EncryptionKeyBinary
   - type: Sprite
     sprite: Exodus/Clothing/Ears/Headsets/death_squad.rsi
   - type: Clothing

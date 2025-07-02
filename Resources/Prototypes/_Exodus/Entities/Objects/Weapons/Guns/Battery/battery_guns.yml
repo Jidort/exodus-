@@ -41,10 +41,10 @@
       fireCost: 100
 
 - type: entity
-  name: Gauda
-  parent: [BaseWeaponBattery, BaseCentcommCommandContraband, BaseGunWieldable]
-  id: WeaponLaserSniperGauda
-  description: Облегченная версия стандартной лазерной винтовки. Имеет более низкий расход заряда для стрельбы.
+  name: phazis
+  parent: [BaseWeaponBattery, BaseCentcommContraband, BaseGunWieldable]
+  id: WeaponLaserUniversalPhazis
+  description:
   components:
   - type: Sprite
     sprite: Exodus/Objects/Weapons/Guns/Battery/sniper_lasergun.rsi
@@ -68,32 +68,41 @@
     maxOffset: 3
     pvsIncrease: 0.3
   - type: Battery
-    maxCharge: 1500
-    startingCharge: 1500
+    maxCharge: 2500
+    startingCharge: 2500
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 50
+    autoRechargeRate: 30
     autoRechargePause: true
-    autoRechargePauseTime: 15
+    autoRechargePauseTime: 1
   - type: MagazineVisuals
     magState: mag
     steps: 5
     zeroVisible: true
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: BulletLaserGaudaAssaultRifle
+    - proto: BulletLaserPhazisAssaultRifle
       fireCost: 25
-    - proto: BulletLaserGaudaShotgun
+    - proto: BulletLaserPhazisShotgun
       fireCost: 500
-    - proto: BulletLaserGaudaSniperRifle
-      fireCost: 1500
+    - proto: BulletLaserPhazisSniperRifle
+      fireCost: 2500
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletLaserGaudaAssaultRifle
+    proto: BulletLaserPhazisAssaultRifle
     fireCost: 25
   - type: Gun
+    minAngle: 10
+    maxAngle: 15
+    angleIncrease: 1
+    angleDecay: 5
     fireRate: 3
     selectedMode: FullAuto
     availableModes:
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+      path: /Audio/Exodus/Weapons/Guns/Gunshots/sniper_laser.ogg
+      params:
+        volume: -5
+  - type: GunWieldBonus
+    minAngle: -8
+    maxAngle: -13

@@ -1,6 +1,6 @@
 - type: entity
   name: SP-91-RC
-  parent: [BaseWeaponRifle , BaseCentcommCommandContraband]
+  parent: [BaseWeaponRifle , BaseCentcommContraband]
   id: WeaponRifleSP
   description: A heavy submachine gun that uses .45 magnum ammunition.
   components:

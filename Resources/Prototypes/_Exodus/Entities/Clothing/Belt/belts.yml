@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingBeltStorageBase, BaseCentcommCommandContraband]
+  parent: [ClothingBeltStorageBase, BaseCentcommContraband]
   id: ClothingBeltDS
   name: death squad assault belt
   description: An assault belt that can hold ammunition or other murderous items.
@@ -52,4 +52,6 @@
       - id: MedkitCombatFilled
       - id: Hypospray
       - id: CombatMedipenDS
-        amount: 4
+        amount: 2
+      - id: CombatMedipen
+        amount: 2

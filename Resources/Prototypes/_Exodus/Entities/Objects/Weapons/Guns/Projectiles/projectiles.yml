@@ -42,7 +42,7 @@
 
 - type: entity
   name: assault rifle mode
-  id: BulletLaserGaudaAssaultRifle
+  id: BulletLaserPhazisAssaultRifle
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -55,10 +55,11 @@
     - state: heavylaser
       shader: unshaded
   - type: Projectile
-    impactEffect: BulletImpactEffectBlueGauda
+    impactEffect: BulletImpactEffectBluePhazis
     damage:
       types:
         Heat: 15
+        Structural: 5
   - type: FlyBySound
     sound:
       collection: EnergyMiss
@@ -91,29 +92,50 @@
     heat: 500
 
 - type: entity
-  name: assault rifle mode
-  id: BulletLaserGaudaSniperRifle
-  parent: BulletLaserGaudaAssaultRifle
+  name: sniper rifle mode
+  id: BulletLaserPhazisSniperRifle
+  parent: BulletLaserPhazisAssaultRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
-    impactEffect: BulletImpactEffectBlueGauda
+    impactEffect: BulletImpactEffectBluePhazis
     damage:
       types:
         Heat: 75
+        Structural: 100
   - type: StaminaDamageOnCollide
     damage: 100
   - type: StunOnCollide
     stunAmount: 3
     knockdownAmount: 3
+  - type: Sprite
+    scale: 1.5, 1.5
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.3,0.3,0.3"
+        hard: false
+        mask:
+        - Opaque
+      fly-by:
+        shape: !type:PhysShapeCircle
+          radius: 1.5
+        layer:
+        - Impassable
+        - MidImpassable
+        - HighImpassable
+        - LowImpassable
+        hard: False
 
 - type: entity
-  name: wide laser barrage
-  id: BulletLaserGaudaShotgun
+  name: shotgun mode
+  id: BulletLaserPhazisShotgun
   categories: [ HideSpawnMenu ]
-  parent: BulletLaserGaudaAssaultRifle
+  parent: BulletLaserPhazisAssaultRifle
   components:
   - type: ProjectileSpread
-    proto: BulletLaserGaudaAssaultRifle
-    count: 5
-    spread: 10
+    proto: BulletLaserPhazisAssaultRifle
+    count: 4
+    spread: 15

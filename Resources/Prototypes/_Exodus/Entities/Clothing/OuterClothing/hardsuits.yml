@@ -66,7 +66,7 @@
     lowPressureMultiplier: 1000
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseCentcommCommandContraband]
+  parent: [ClothingOuterHardsuitBase, BaseCentcommContraband]
   id: ClothingOuterHardsuitDeathsquadCommander
   name: death squad commander hardsuit
   description: A high-tech suit designed for the death squad commander.
@@ -82,11 +82,11 @@
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
     heatingCoefficient: 0.001
-    coolingCoefficient: 0.05
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: FireProtection
-    reduction: 0.4
+    reduction: 0.6
   - type: Armor
     modifiers:
       coefficients:
@@ -102,6 +102,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadCommander
+  - type: PointLight
+    color: SkyBlue
+    radius: 1.5
+    energy: 0.3
+    netsync: false
   - type: GasTank
     outputPressure: 101.3
     air:
@@ -111,11 +116,49 @@
         - 11.600075659
       temperature: 293.15
     tankLowPressure: 30.0
-  - type: PointLight
-    color: SkyBlue
-    radius: 1.5
-    energy: 0.3
-    netsync: false
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: UseDelay
+    delays:
+      gasTank:
+        length: 1.0
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.2
+
+- type: entity
+  parent: ClothingOuterHardsuitDeathsquadCommander
+  id: ClothingOuterHardsuitDeathsquadJuggernaut
+  name: death squad juggernaut hardsuit
+  description: A high-tech suit designed for the death squad juggernaut.
+  components:
+  - type: Sprite
+    sprite: Exodus/Clothing/OuterClothing/Hardsuits/death_squad_commander.rsi
+  - type: Clothing
+    sprite: Exodus/Clothing/OuterClothing/Hardsuits/death_squad_commander.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+  - type: FireProtection
+    reduction: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1
+        Piercing: 0.1
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 0.6
+    sprintModifier: 0.6
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadJuggernaut
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.1
 
 - type: entity
   parent: ClothingOuterHardsuitDeathsquadCommander
@@ -169,7 +212,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquadSpecialist
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseCentcommCommandContraband]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseCentcommContraband]
   id: ClothingHeadHelmetHardsuitDeathsquadCommander
   name: death squad commander hardsuit helmet
   description: A high-tech helmet designed for the death squad commander.
@@ -200,35 +243,20 @@
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitDeathsquadCommander
+  id: ClothingHeadHelmetHardsuitDeathsquadJuggernaut
+  name: death squad juggernaut hardsuit helmet
+  description: A high-tech helmet designed for the death squad juggernaut
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitDeathsquadCommander
   id: ClothingHeadHelmetHardsuitDeathsquadOfficer
   name: death squad officer hardsuit helmet
   description: A high-tech helmet designed for the death squad officer.
-  components:
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.80
-        Heat: 0.80
-        Radiation: 0.85
-        Caustic: 0.95
-
 - type: entity
   parent: ClothingHeadHelmetHardsuitDeathsquadCommander
   id: ClothingHeadHelmetHardsuitDeathsquadSpecialist
   name: death squad specialist hardsuit helmet
   description: A high-tech helmet designed for the death squad specialist.
-  components:
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.80
-        Heat: 0.80
-        Radiation: 0.85
-        Caustic: 0.95
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]

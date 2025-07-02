@@ -121,6 +121,10 @@
       - Stutter
       - Electrocution
       - StaminaModifier
+      - PressureImmunity
+      - StaminaModifier
+      - Adrenaline
+      - RadiationProtection
     - type: Thirst
       startingThirst: 2500
       thresholds:
@@ -208,6 +212,10 @@
       job: DSCommander
     - type: Loadout
       prototypes: [ DSCommanderGear ]
+    - type: RandomMetadata
+      nameSegments:
+      - DSNumberCommander
+      nameFormat: name-format-ds-commander
 
 - type: entity
   name: death squad commander
@@ -224,9 +232,8 @@
     settings: DeathSquadCommander
   - type: RandomMetadata
     nameSegments:
-    - DSCallSigns
-    - DSNumber
-    nameFormat: name-format-ds
+    - DSNumberCommander
+    nameFormat: name-format-ds-commander
 
 - type: randomHumanoidSettings
   id: DeathSquadSpecialist
