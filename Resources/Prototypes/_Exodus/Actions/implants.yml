@@ -42,6 +42,6 @@
       priority: -20
       useDelay: 5
       icon:
-        sprite: Objects/Specific/Medical/medipen.rsi
-        state: morphen
+        sprite: Exodus/Objects/Specific/Medical/auto_injector.rsi
+        state: icon
       event: !type:ActivateImplantEvent

@@ -60,7 +60,7 @@
         sol1:
           maxVol: 100
           reagents:
-            - ReagentId: Saliforsom
+            - ReagentId: Omnitir
               Quantity: 100
     - type: InjectOnTrigger
       solutions:

@@ -1,6 +1,6 @@
 - type: entity
   name: energy shield
-  parent: [EnergyShield , BaseCentcommCommandContraband]
+  parent: [EnergyShield , BaseCentcommContraband]
   id: DSEnergyShield
   description: Exotic energy shield, when folded, can even fit in your pocket.
   components:

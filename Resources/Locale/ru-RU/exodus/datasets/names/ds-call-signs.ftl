@@ -1,9 +1,9 @@
-names-ds-call-signs-dataset-1 = Альфа
+names-ds-call-signs-dataset-1 = Тау
 names-ds-call-signs-dataset-2 = Бета
-names-ds-call-signs-dataset-3 = Гамма
-names-ds-call-signs-dataset-4 = Дельта
-names-ds-call-signs-dataset-5 = Дзета
-names-ds-call-signs-dataset-6 = Эта
+names-ds-call-signs-dataset-3 = Вита
+names-ds-call-signs-dataset-4 = Таф
+names-ds-call-signs-dataset-5 = Дзита
+names-ds-call-signs-dataset-6 = Ита
 names-ds-call-signs-dataset-7 = Тета
 names-ds-call-signs-dataset-8 = Йота
 names-ds-call-signs-dataset-9 = Каппа

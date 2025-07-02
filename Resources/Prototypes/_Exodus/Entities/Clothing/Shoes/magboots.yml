@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingShoesBootsMagSyndie, BaseCentcommCommandContraband]
+  parent: [ClothingShoesBootsMagSyndie, BaseCentcommContraband]
   id: ClothingShoesBootsMagDS
   name: death squad magboots
   description: State-of-the-art magnetic boots in recognisable colours.

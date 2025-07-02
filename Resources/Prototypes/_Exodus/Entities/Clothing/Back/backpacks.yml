@@ -47,7 +47,7 @@
     - 0,0,17,8
 
 - type: entity
-  parent: [ClothingBackpack, BaseCentcommCommandContraband]
+  parent: [ClothingBackpack, BaseCentcommContraband]
   id: ClothingDeathSquadBackpack
   name: death squad backpack
   description: The high-capacity backpack of the squad of the same name
@@ -60,62 +60,3 @@
     maxItemSize: Huge
   - type: ExplosionResistance
     damageCoefficient: 0.1
-
-- type: entity
-  parent: ClothingDeathSquadBackpack
-  id: ClothingDeathSquadBackpackOfficer
-  name: death squad backpack
-  suffix: officer
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponPulseRifle
-      - id: Omnitool
-      - id: WeaponRevolverMateba
-      - id: SpeedLoaderMagnumAP
-        amount: 2
-      - id: GrenadeIncendiary
-        amount: 2
-      - id: GrenadeShrapnel
-        amount: 2
-      - id: CombatMedipenDS
-        amount: 2
-
-- type: entity
-  parent: ClothingDeathSquadBackpack
-  id: ClothingDeathSquadBackpackCommander
-  name: death squad backpack
-  suffix: commander
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponPulseRifle
-      - id: Omnitool
-      - id: WeaponRevolverMateba
-      - id: SpeedLoaderMagnumAP
-        amount: 2
-      - id: GrenadeIncendiary
-        amount: 2
-      - id: GrenadeShrapnel
-        amount: 2
-      - id: PinpointerNuclear
-      - id: CombatMedipenDS
-        amount: 2
-
-- type: entity
-  parent: ClothingDeathSquadBackpack
-  id: ClothingDeathSquadBackpackSpecialist
-  name: death squad backpack
-  suffix: specialist
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponPulseRifle
-      - id: Omnitool
-      - id: WeaponRevolverMateba
-      - id: SpeedLoaderMagnumAP
-        amount: 2
-      - id: SmokeGrenade
-      - id: TearGasGrenade
-      - id: CombatMedipenDS
-        amount: 4
