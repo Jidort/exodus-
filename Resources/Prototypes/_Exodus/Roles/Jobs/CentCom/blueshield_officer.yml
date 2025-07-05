@@ -29,3 +29,25 @@
     neck: ClothingNeckCloakBlueshield
     pocket1: WeaponAdvancedPulsePistol
     suitstorage: WeaponSubMachineGunVector
+
+- type: startingGear
+  id: BlueshieldOfficerGeartz
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorDarkGreen
+    shoes: ClothingShoesBootsLaceup
+    head: ClothingHeadHatBeretBlueshield
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesBlueshield
+    outerClothing: ClothingOuterVestBlueshield
+    id: BlueshieldPDA
+    ears: ClothingHeadsetAltBlueshield
+    belt: ClothingBeltSecurityFilled
+    back: ClothingBackpackSatchelBlueshieldFilled
+    neck: ClothingNeckCloakBlueshield
+    pocket1: WeaponAdvancedPulsePistol
+    suitstorage: WeaponSubMachineGunVector
+  storage:
+    back:    
+    - PlushAsler
+  inhand: 
+    - PlushAsler

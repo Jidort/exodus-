@@ -11,3 +11,12 @@
     Blunt: 0.9
     Slash: 0.9
     Piercing: 0.9
+
+- type: damageModifierSet
+  id: Centcom
+  coefficients:
+    Heat: 0.1
+    Radiation: 0.0
+    Shock: 0.8
+    Bloodloss: 0.4
+

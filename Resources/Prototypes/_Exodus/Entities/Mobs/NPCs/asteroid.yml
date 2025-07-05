@@ -1,0 +1,79 @@
+- type: entity
+  id: Mobtz
+  parent: MobGoliath
+  name: goliath
+  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+  components:
+  - type: Sprite
+    sprite: Mobs/Aliens/Asteroid/goliath.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: goliath
+  # Exodus-Balance-Start
+  - type: PointLight
+    color: "#FF0000"
+    energy: 0.5
+    radius: 2
+  # Exodus-Balance-End
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: goliath
+      Dead:
+        Base: goliath_dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.00
+    baseSprintSpeed : 2.00
+  - type: Bloodstream
+    bloodMaxVolume: 350
+    chemicalMaxVolume: 0
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      301: Dead
+  - type: MeleeWeapon
+    soundHit:
+      path: "/Audio/Weapons/smash.ogg"
+    angle: 0
+    attackRate: 0.75
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Slash: 10
+        Piercing: 10
+  - type: NpcFactionMember
+    factions:
+    - Centcom
+  - type: HTN
+    constantlyReplan: false
+    rootTask:
+      task: GoliathCompound
+    blackboard:
+      VisionRadius: !type:Single
+        6
+      AggroVisionRadius: !type:Single
+        10
+      NavSmash: !type:Bool
+        true
+  - type: NPCUseActionOnTarget
+    actionId: ActionGoliathTentacle
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - Goliath
+    - FootstepSound
+  - type: NoSlip
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatGoliath
+      amount: 3
+# Exodus-Our-Maximal-HardSuit-Start
+    - id: MaterialGoliathHide1
+      amount: 1
+# Exodus-Our-Maximal-HardSuit-End
+  - type: Damageable
+    damageContainer: BiologicalMetaphysical
+    damageModifierSet: Centcom
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepThud
