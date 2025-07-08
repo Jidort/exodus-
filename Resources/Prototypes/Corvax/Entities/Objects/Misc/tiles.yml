@@ -37,7 +37,7 @@
 - type: entity
   name: dark wooden floor
   parent: FloorTileItemBase
-  id: dark wooden floor
+  id: FloorTileItemWoodDark
   components:
   - type: Sprite
     sprite: Corvax/Objects/Tiles/wood.rsi
