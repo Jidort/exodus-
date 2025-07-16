@@ -15,5 +15,8 @@
   <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
   </Box>
-
+  <Box>
+  <GuideEntityEmbed Entity="MobNewKidan" Caption="Кидан"/>
+  <GuideEntityEmbed Entity="MobFelinid" Caption="Фелинид"/>
+  </Box>
 </Document>

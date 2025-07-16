@@ -142,6 +142,8 @@ loadout-group-scientist-shoes = Учёный, обувь
 loadout-group-scientist-id = Учёный, ID
 ResearchAssistant-loadout = Снаряжение научного ассистента
 loadout-group-research-assistant-jumpsuit = Научный ассистент, комбинезон
+StationAi-loadout = Настройка ИИ
+Borg-loadout = Настройка борга
 # Security
 HeadOfSecurity-loadout = Снаряжение главы службы безопасности
 loadout-group-head-of-security-head = Глава службы безопасности, голова
