@@ -1,4 +1,5 @@
 - type: guideEntry
   id: Mindset
   name: guide-entry-mindset
-  text: "/ServerInfo/Guidebook/Mindset/Mindset.xml"
+  priority: 2
+  text: "/ServerInfo/Exodus/Guidebook/Mindset/Mindset.xml"

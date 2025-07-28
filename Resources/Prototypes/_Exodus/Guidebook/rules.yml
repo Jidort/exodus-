@@ -7,58 +7,37 @@
     - ExodusRule0
     - ExodusRule1
     - ExodusRule2
-    - ExodusRule23
-    - ExodusRule24
-    - ExodusRule25
     - ExodusRule3
     - ExodusRule4
     - ExodusRule5
 
 - type: guideEntry
   id: ExodusRule0
-  name: "0. Не будь мудаком"
+  name: "П0. Не быть мудаком"
   priority: 1
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule0.xml"
 
 - type: guideEntry
   id: ExodusRule1
-  name: "1. Порча игрового процесса"
+  name: "П1. Уклонение от наказаний | ПНТ"
   priority: 2
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule1.xml"
 
 - type: guideEntry
   id: ExodusRule2
-  name: "2. Отыгрыш персонажа"
+  name: "П2. Игнорирование сообщений администрации; Злоупотребление АХ (F1) | ПНТ"
   priority: 3
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule2.xml"
 
 - type: guideEntry
-  id: ExodusRule23
-  name: "2.3. Отыгрыш особенностей, нерегулируемых игровыми механиками"
-  priority: 4
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule23.xml"
-
-- type: guideEntry
-  id: ExodusRule24
-  name: "2.4. Правила отыгрыша отдельных ролей"
-  priority: 5
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule24.xml"
-
-- type: guideEntry
-  id: ExodusRule25
-  name: "2.5. ПГ, Валидхантинг"
-  priority: 6
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule25.xml"
-
-- type: guideEntry
   id: ExodusRule3
-  name: "3. Взаимоотношения между игроками"
+  name: "П3. Элитизм | НТТД"
   priority: 7
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule3.xml"
 
 - type: guideEntry
   id: ExodusRule4
-  name: "4. Обман"
+  name: "П4. Метагейминг - Недоступная персонажу информация"
   priority: 8
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule4.xml"
 

@@ -1,0 +1,9 @@
+- type: guideEntry
+  id: Kidan
+  name: species-name-kidan
+  text: "/ServerInfo/Exodus/Guidebook/Mobs/Kidan.xml"
+
+- type: guideEntry
+  id: Felinid
+  name: species-name-felinid
+  text: "/ServerInfo/Exodus/Guidebook/Mobs/Felinid.xml"

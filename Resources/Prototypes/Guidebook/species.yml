@@ -12,6 +12,10 @@
     - SlimePerson
     - Vulpkanin # Corvax
     - Vox
+  # Exodus-Races-Start
+    - Kidan
+    - Felinid
+  # Exodus-Races-End
 
 - type: guideEntry
   id: Arachnid

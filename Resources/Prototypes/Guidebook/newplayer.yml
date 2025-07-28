@@ -1,7 +1,7 @@
 - type: guideEntry
   id: NewPlayer
   name: guide-entry-newplayer
-  priority: 0
+  priority: 1 # Exodus-Guidebook-Clean
   text: "/ServerInfo/Guidebook/NewPlayer/NewPlayer.xml"
   children:
   - Controls
