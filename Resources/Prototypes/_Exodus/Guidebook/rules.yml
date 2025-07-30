@@ -1,48 +1,55 @@
 - type: guideEntry
   id: ExodusRuleset
-  name: Правила сервера
+  name: Правило сервера
   priority: 0
   text: "/ServerInfo/Exodus/Guidebook/ServerRules/MrpRuleset.xml"
   children:
-    - ExodusRule0
-    - ExodusRule1
-    - ExodusRule2
-    - ExodusRule3
-    - ExodusRule4
-    - ExodusRule5
+    - ExodusRule04
+    - ExodusRule59
+    - ExodusRule1014
+    - ExodusRule15
+    - ExodusRule1618
+    - ExodusRule19
+    - ExodusRule2021
 
 - type: guideEntry
-  id: ExodusRule0
-  name: "П0. Не быть мудаком"
+  id: ExodusRule04
+  name: "Правило 0 - Правило 4"
   priority: 1
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule0.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule0-4.xml"
 
 - type: guideEntry
-  id: ExodusRule1
-  name: "П1. Уклонение от наказаний | ПНТ"
+  id: ExodusRule59
+  name: "Правило 5 - Правило 9"
   priority: 2
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule1.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule5-9.xml"
 
 - type: guideEntry
-  id: ExodusRule2
-  name: "П2. Игнорирование сообщений администрации; Злоупотребление АХ (F1) | ПНТ"
+  id: ExodusRule1014
+  name: "Правило 10 - Правило 14"
   priority: 3
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule2.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule10-14.xml"
 
 - type: guideEntry
-  id: ExodusRule3
-  name: "П3. Элитизм | НТТД"
+  id: ExodusRule15
+  name: "Правило 15"
   priority: 7
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule3.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule15.xml"
 
 - type: guideEntry
-  id: ExodusRule4
-  name: "П4. Метагейминг - Недоступная персонажу информация"
+  id: ExodusRule1618
+  name: "Правило 16 - Правило 18"
   priority: 8
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule4.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule16-18.xml"
 
 - type: guideEntry
-  id: ExodusRule5
-  name: "5. Частные случаи"
+  id: ExodusRule19
+  name: "Правило 19"
   priority: 9
-  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule5.xml"
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule19.xml"
+
+- type: guideEntry
+  id: ExodusRule2021
+  name: "Правило 20 - Правило 21"
+  priority: 10
+  text: "/ServerInfo/Exodus/Guidebook/ServerRules/Rule20-21.xml"
