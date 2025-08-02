@@ -74,3 +74,21 @@
   components:
   - type: Sprite
     sprite: Exodus/Clothing/Neck/Cloaks/senior_researcher.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakSeniorPhysican
+  name: senior physican cloack
+  description: Senior physicancloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
+  components:
+  - type: Sprite
+    sprite: Exodus/Clothing/Neck/Cloaks/senior_physican.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakSeniorResearcher
+  name: senior researcher cloack
+  description: Senior researcher cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
+  components:
+  - type: Sprite
+    sprite: Exodus/Clothing/Neck/Cloaks/senior_researcher.rsi
