@@ -97,3 +97,15 @@ names-ds-numbers-dataset-96 = 96
 names-ds-numbers-dataset-97 = 97
 names-ds-numbers-dataset-98 = 98
 names-ds-numbers-dataset-99 = 99
+
+# Commander call signs
+names-ds-numbers-commander-dataset-1 = 1
+names-ds-numbers-commander-dataset-2 = 2
+names-ds-numbers-commander-dataset-3 = 3
+names-ds-numbers-commander-dataset-4 = 4
+names-ds-numbers-commander-dataset-5 = 5
+names-ds-numbers-commander-dataset-6 = 6
+names-ds-numbers-commander-dataset-7 = 7
+names-ds-numbers-commander-dataset-8 = 8
+names-ds-numbers-commander-dataset-9 = 9
+names-ds-numbers-commander-dataset-10 = 10

@@ -17,7 +17,7 @@
   id: DSCommanderGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingDeathSquadBackpackCommander
+    back: ClothingDeathSquadBackpack
     shoes: ClothingShoesBootsMagDS
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesHudDS
@@ -29,6 +29,20 @@
     suitstorage: Chainsword
     pocket1: DoorRemoteAll
     pocket2: DSEnergyShield
+  storage:
+    back:
+    - WeaponLaserUniversalPhazis
+    - Omnitool
+    - WeaponRevolverMateba
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - GrenadeIncendiary
+    - GrenadeIncendiary
+    - GrenadeShrapnel
+    - GrenadeShrapnel
+    - PinpointerNuclear
+    - CombatMedipenDS
+    - CombatMedipenDS
 
 - type: chameleonOutfit
   id: DeathSquadCommanderChameleonOutfit
@@ -57,7 +71,7 @@
   id: DSOfficerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingDeathSquadBackpackOfficer
+    back: ClothingDeathSquadBackpack
     shoes: ClothingShoesBootsMagDS
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesHudDS
@@ -69,6 +83,19 @@
     pocket1: EnergySword
     pocket2: DSEnergyShield
     suitstorage: WeaponRifleSP
+  storage:
+    back:
+    - WeaponLaserUniversalPhazis
+    - Omnitool
+    - WeaponRevolverMateba
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - GrenadeIncendiary
+    - GrenadeIncendiary
+    - GrenadeShrapnel
+    - GrenadeShrapnel
+    - CombatMedipenDS
+    - CombatMedipenDS
 
 - type: chameleonOutfit
   id: DeathSquadOfficerChameleonOutfit
@@ -97,7 +124,7 @@
   id: DSSpecialistGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingDeathSquadBackpackSpecialist
+    back: ClothingDeathSquadBackpack
     shoes: ClothingShoesBootsMagDS
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesHudDS
@@ -109,6 +136,20 @@
     pocket1: EnergySword
     pocket2: DSEnergyShield
     suitstorage: DSSyringeGun
+  storage:
+    back:
+    - WeaponLaserUniversalPhazis
+    - Omnitool
+    - WeaponRevolverMateba
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - SmokeGrenade
+    - TearGasGrenade
+    - HyposprayPANACEADS
+    - CombatMedipenDS
+    - CombatMedipenDS
+    - BoxSyringeAmmo
+    - BoxSyringeAmmo
 
 - type: chameleonOutfit
   id: DeathSquadSpecialistChameleonOutfit

@@ -13,7 +13,7 @@
     fiberMaterial: fibers-insulative
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: [ClothingHandsBase, BaseCentcommContraband]
   id: ClothingHandsGlovesDS
   name: death squad combat gloves
   description: Force gloves that multiply the mechanical force of impact.

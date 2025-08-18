@@ -1,6 +1,6 @@
 - type: entity
   name: energy chainsword
-  parent: BaseItem
+  parent: [BaseItem , BaseCentcommContraband]
   id: Chainsword
   description: Technology and violence - two in one.
   components:

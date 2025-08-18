@@ -9,3 +9,9 @@
   values:
     prefix: names-ds-numbers-dataset-
     count: 99
+
+- type: localizedDataset
+  id: DSNumberCommander
+  values:
+    prefix: names-ds-numbers-commander-dataset-
+    count: 10

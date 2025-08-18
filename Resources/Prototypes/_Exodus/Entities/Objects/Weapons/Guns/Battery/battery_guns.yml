@@ -40,3 +40,69 @@
     - proto: BulletTaser
       fireCost: 100
 
+- type: entity
+  name: phazis
+  parent: [BaseWeaponBattery, BaseCentcommContraband, BaseGunWieldable]
+  id: WeaponLaserUniversalPhazis
+  description:
+  components:
+  - type: Sprite
+    sprite: Exodus/Objects/Weapons/Guns/Battery/sniper_lasergun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Appearance
+  - type: Item
+    size: Large
+    sprite: Exodus/Objects/Weapons/Guns/Battery/sniper_lasergun.rsi
+    shape:
+    - 0,0,3,1
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.8
+    sprintModifier: 0.9
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 3
+    pvsIncrease: 0.3
+  - type: Battery
+    maxCharge: 2500
+    startingCharge: 2500
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 30
+    autoRechargePause: true
+    autoRechargePauseTime: 1
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletLaserPhazisAssaultRifle
+      fireCost: 25
+    - proto: BulletLaserPhazisShotgun
+      fireCost: 500
+    - proto: BulletLaserPhazisSniperRifle
+      fireCost: 2500
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletLaserPhazisAssaultRifle
+    fireCost: 25
+  - type: Gun
+    minAngle: 10
+    maxAngle: 15
+    angleIncrease: 1
+    angleDecay: 5
+    fireRate: 3
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Exodus/Weapons/Guns/Gunshots/sniper_laser.ogg
+      params:
+        volume: -5
+  - type: GunWieldBonus
+    minAngle: -8
+    maxAngle: -13
