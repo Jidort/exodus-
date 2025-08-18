@@ -20,3 +20,4 @@
     - Security
   - type: IdentityBlocker
     coverage: EYES
+  - type: ShowCentcomAgentIcons

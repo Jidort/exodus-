@@ -1,0 +1,7 @@
+- type: factionIcon
+  id: CentComFaction
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Nanotrasen

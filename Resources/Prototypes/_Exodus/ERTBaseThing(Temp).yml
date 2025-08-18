@@ -1,0 +1,72 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseCentcommContraband]
+  id: ClothingEyesHudERT
+  name: ERT visor
+  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Hud/synd.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Hud/synd.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: IdentityBlocker
+    coverage: EYES
+  - type: ShowCentcomAgentIcons
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingEyesHudERT
+  id: ClothingEyesHudERTMedic
+  name: ERT medical visor
+  description: The Syndicate Corpsman's professional heads-up display, designed for quick diagnosis of their team's status.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Hud/syndagent.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Hud/syndagent.rsi
+  - type: ShowHealthBars
+
+
+- type: entity
+  parent: [ClothingShoesBase, BaseToggleClothing, BaseCentcommContraband]
+  id: ClothingShoesBootsMagERT
+  name: magboots
+  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/magboots.rsi
+    layers:
+    - state: icon
+      map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/magboots.rsi
+  - type: ToggleClothing
+    action: ActionToggleMagboots
+    mustEquip: true
+  - type: ComponentToggler
+    components:
+    - type: NoSlip
+  - type: ItemTogglePrefix
+    prefixOn: on
+  - type: ToggleClothingPrefix
+    prefixOn: on
+  - type: Magboots
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
+  - type: StaticPrice
+    price: 200
+  - type: Tag
+    tags:
+    - WhitelistChameleon

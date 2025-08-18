@@ -189,6 +189,7 @@
     - Biological
     - Inorganic
   - type: ShowSyndicateIcons
+  - type: ShowCentcomAgentIcons
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
@@ -207,6 +208,7 @@
   - type: ShowHungerIcons
   - type: ShowThirstIcons
   - type: ShowSyndicateIcons
+  - type: ShowCentcomAgentIcons
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSyndicateContraband]

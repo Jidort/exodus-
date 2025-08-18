@@ -10,6 +10,7 @@
     sprite: Exodus/Clothing/Eyes/Hud/death_squad.rsi
   - type: SolutionScanner
   - type: ShowSyndicateIcons
+  - type: ShowCentcomAgentIcons
 
 - type: entity
   parent: ClothingEyesHudMedical
