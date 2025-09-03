@@ -30,7 +30,6 @@
     sprite: Clothing/Eyes/Hud/syndagent.rsi
   - type: ShowHealthBars
 
-
 - type: entity
   parent: [ClothingShoesBase, BaseToggleClothing, BaseCentcommContraband]
   id: ClothingShoesBootsMagERT

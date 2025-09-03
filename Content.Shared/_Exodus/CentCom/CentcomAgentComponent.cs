@@ -18,5 +18,5 @@ public sealed partial class CentcomAgentComponent : Component
     ///
     /// </summary>
     [DataField("centcomagentStatusIcon", customTypeSerializer: typeof(PrototypeIdSerializer<FactionIconPrototype>))]
-    public string CentcomAgentStatusIcon = "CentComFaction";
+    public string CentcomAgentStatusIcon = "CentcomFaction";
 }

@@ -1,5 +1,5 @@
 - type: factionIcon
-  id: CentComFaction
+  id: CentcomFaction
   priority: 0
   locationPreference: Right
   icon:
